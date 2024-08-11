@@ -1,0 +1,6 @@
+{
+  "yacl3.config.playernamehider:message.category.Settings": "PlayerNameHider Settings",
+  "yacl3.config.playernamehider:message.main_config.enabled": "Enabled",
+  "yacl3.config.playernamehider:message.main_config.hide_own_name": "Hide Own Name",
+  "yacl3.config.playernamehider:message.main_config.format": "Name Format"
+}

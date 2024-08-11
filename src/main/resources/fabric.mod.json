@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "playernamehider",
+  "version": "${version}",
+  "name": "PlayerNameHider",
+  "description": "A Implementation for Lunar Nick Hider",
+  "authors": [
+    "PowerGG"
+  ],
+  "contact": {
+    "repo": "https://github.com/PowerGG/PlayerNameHider"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/playernamehider/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.powergg.playernamehider.client.PlayerNameHiderClient"
+    ],
+    "modmenu": [
+      "com.powergg.playernamehider.api.ModMenuApiImpl"
+    ]
+  },
+  "mixins": [
+    "playernamehider.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "yet_another_config_lib_v3": "*"
+  }
+}
